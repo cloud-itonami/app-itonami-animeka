@@ -1,0 +1,1 @@
+{"identifier":"animeka-local","description":"Read-only host info (awai_host_info). All network happens from the WebView via fetch to the animeka Worker XRPC base and the AT PDS; the host exposes no filesystem, shell, installer or broker permission.","windows":["main"],"permissions":["allow-awai-host-info"]}

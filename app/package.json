@@ -1,0 +1,27 @@
+{
+  "name": "@itonami/animeka",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "itonami": {
+    "id": "network.itonami.animeka",
+    "title": "Animeka — Team Anime Production",
+    "source": "app-itonami-animeka"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "tauri": "tauri",
+    "build:desktop": "npm run build && tauri build --no-bundle",
+    "build:android": "sh scripts/android-apk.sh"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "@tauri-apps/cli": "3.0.0-alpha.6",
+    "svelte": "^5.55.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.8"
+  }
+}
