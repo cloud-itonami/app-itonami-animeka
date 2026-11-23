@@ -1,0 +1,4 @@
+*/*.apk
+build.log
+badging.txt
+badging-36.0.0.txt
